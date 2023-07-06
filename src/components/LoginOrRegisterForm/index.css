@@ -1,0 +1,30 @@
+.main-container {
+    background-image: radial-gradient(#f542e6, #221640);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-and-register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons-container {
+    background-color: antiquewhite;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 0;
+}
