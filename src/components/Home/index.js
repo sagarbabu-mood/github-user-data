@@ -12,9 +12,9 @@ const HomePage = () => {
     return (
         <div className="home-container">
             <div className="text-container">
-                <marquee behavior="scroll" direction="left">
-                    <h1>Hey, Hi!... Welcome to my page</h1>
-                </marquee>
+                <h1 className="scrolling-text">
+                    Hey, Hi!... Welcome to my page
+                </h1>
             </div>
             <div className="emoji-container">
                 <span className="emoji">😃</span>

@@ -8,16 +8,16 @@
 }
 
 .text-container {
-    padding: 10px;
     margin-bottom: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-    animation: scrollText 5s linear infinite;
+.scrolling-text {
+    overflow: hidden;
     white-space: nowrap;
+    animation: scrollText 10s linear infinite;
 }
 
 @keyframes scrollText {
